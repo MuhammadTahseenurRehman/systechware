@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --color-website-primary: oklch(23.6% 0.164 258.4);
+    --color-website-secondary: oklch(49.1% 0.287 67.5);
+    --color-website-accent: oklch(70.14% 0.185 142.17);
+    --color-website-link: oklch(56.7% 0.201 264.2 / 0.99);
+    --color-website-heading: oklch(21% 0.034 264.665);
+    --color-website-text: oklch(42.56% 0.011 264.82);
+    --color-website-bg-light: oklch(98.5% 0.002 247.839);
+    --color-website-border: oklch(92.8% 0.006 264.531);
+    --color-website-button: oklch(23.6% 0.164 258.4);
+    --font-family-website: 'Noto Sans', sans-serif;
+}
+
+/* Set Roboto as the default font family for the entire application */
+html {
+    font-family: var(--font-family-website);
+}
+
+body {
+    font-family: var(--font-family-website);
+}
+
+/* Universal typography rules to prevent orphans and widows on entire website */
+* {
+    orphans: 3;
+    widows: 3;
+    text-wrap: pretty;
+}

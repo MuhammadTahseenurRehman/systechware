@@ -110,7 +110,7 @@
       <nav aria-label="Top">
         <!-- Top navigation -->
         <div class="bg-website-heading" :class="[{ 'hidden': isScrolled }]">
-          <div class="mx-auto flex h-10 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+          <div class="mx-auto flex h-10 max-w-8xl items-center justify-between px-4 sm:px-6 lg:px-8">
             <!-- Currency selector -->
             <form class="hidden">
               <div class="-ml-2 inline-grid grid-cols-1">
@@ -133,7 +133,7 @@
 
         <!-- Secondary navigation -->
         <div class="bg-white">
-          <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div class="mx-auto max-w-8xl px-4 sm:px-6 lg:px-8">
             <div class="border-b border-gray-200" :class="[{ 'border-none': isScrolled }]">
               <div class="flex h-16 items-center justify-between">
                 <!-- Logo (lg+) -->
@@ -160,7 +160,7 @@
                             <!-- Presentational element used to render the bottom shadow, if we put the shadow on the actual panel it pokes out the top, so we use this shorter element to hide the top of the shadow -->
                             <div class="absolute inset-0 top-1/2 bg-white shadow-sm" aria-hidden="true" />
                             <div class="relative bg-white">
-                              <div class="mx-auto max-w-7xl px-8">
+                              <div class="mx-auto max-w-8xl px-8">
                                 <div class="grid grid-cols-2 items-start gap-x-8 gap-y-10 pt-10 pb-12">
                                   <div class="grid grid-cols-2 gap-x-8 gap-y-10">
                                     <div>

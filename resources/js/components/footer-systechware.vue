@@ -2,7 +2,7 @@
     <footer class="bg-[#F6F9FE] border-t border-[#E5EAF2] text-[#3A4763]">
       <!-- Newsletter -->
        <div class="grid grid-col-1 md:grid-cols-2">
-        <div class="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 pt-10 pb-6">
+        <div class="max-w-8xl mx-auto w-full px-4 sm:px-6 lg:px-8 pt-10 pb-6">
             <div class="flex flex-col gap-8">
                 <div class="flex items-center gap-3">
                     <logo-component logo-type="dark"></logo-component>
@@ -79,7 +79,7 @@
         </div>
     
         <!-- Footer Links -->
-        <div class="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 pt-2 pb-6 md:pt-10">
+        <div class="max-w-8xl mx-auto w-full px-4 sm:px-6 lg:px-8 pt-2 pb-6 md:pt-10">
             <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-6">
             <div>
                 <h3 class="text-base font-semibold text-[#1E293B] mb-3">Customer Support</h3>

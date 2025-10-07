@@ -18,41 +18,94 @@
             
             <!-- Homepage content -->
             <main class="bg-white">
-                <!-- Home banner section -->
-                <section aria-labelledby="cause-heading">
-                    <div class="relative flex items-center h-75 md:h-[calc(100vh-170px)] bg-gray-800 px-6 sm:px-12 lg:px-16">
-                        <div class="absolute inset-0 overflow-hidden">
-                            <img src="https://www.systechware.com/images/home-icons/home-banner.png" alt="" class="size-full object-cover" />
+                <!-- Dynamic Banner with Slider -->
+                <dynamic-banner 
+                    title="Top 100+ Deals everyone's eyeing"
+                    subtitle="Hotter-than-hot savings"
+                    button-text="Shop Deals"
+                    brand-name="Systechware"
+                    deal-text="DEALS"
+                    time-text="OCT. 7-12 ONLY!"
+                    :products="[
+                        {
+                            name: 'Gaming Laptop',
+                            description: 'High-performance gaming laptop with advanced graphics'
+                        },
+                        {
+                            name: 'Handheld Console', 
+                            description: 'Portable gaming device with premium features'
+                        },
+                        {
+                            name: 'Gaming Headset',
+                            description: 'Professional gaming headset with noise cancellation'
+                        }
+                    ]">
+                </dynamic-banner>
+
+                <!-- Shop All Deals Section - White Background -->
+                <section class="bg-white py-4">
+                    <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
+                        <!-- Section Header -->
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-6 gap-4">
+                            <div>
+                                <h2 class="text-xl sm:text-2xl md:text-3xl font-bold text-website-heading">Shop all Deals</h2>
+                                <p class="text-gray-600 text-sm mt-1">Up to 50% off</p>
+                            </div>
+                            <a href="#" class="text-blue-600 hover:text-blue-800 font-medium text-sm sm:text-base cursor-pointer" style="color: #0053e2;">View all</a>
                         </div>
-                        <div class="relative flex max-w-xl flex-col items-start text-left">
-                            <h1 id="banner-heading" class="text-lg md:text-3xl font-bold tracking-tight text-white sm:text-4xl">Power Your Productivity</h1>
-                            <p class="mt-3 text-medium md:text-xl text-white">Upgrade your home or office with unbeatable deals on laptops, monitors, and accessories. Up to 30% off top brands!</p>
-                            <a href="#" class="mt-8 block w-auto     rounded-md border border-transparent bg-white px-8 py-3 text-base font-medium text-website-heading hover:bg-gray-100">Shop The Sale</a>
-                        </div>
+                        
+                        <!-- Product Grid -->
+                        <product-grid :products="[
+                            {
+                                currentPrice: '$399.99',
+                                originalPrice: '$499.99',
+                                name: 'HP Laptop 14-inch with Software Bundle',
+                                buttonText: 'Add'
+                            },
+                            {
+                                currentPrice: '$129.99',
+                                originalPrice: '$179.99',
+                                name: 'Rachael Ray 15-Piece Cookware Set',
+                                buttonText: 'Add'
+                            },
+                            {
+                                currentPrice: '$299.99',
+                                originalPrice: '$399.99',
+                                name: 'Sportspower Swing Set with FREE Anchor Kit',
+                                buttonText: '+ Add'
+                            },
+                            {
+                                currentPrice: '$24.99',
+                                originalPrice: '$39.99',
+                                name: 'Amy & Annette Gold Hoop Earrings',
+                                buttonText: '+ Add'
+                            },
+                            {
+                                currentPrice: '$89.99',
+                                originalPrice: '$129.99',
+                                name: 'ieGeek Solar Security Camera',
+                                buttonText: '+ Add'
+                            },
+                            {
+                                currentPrice: '$19.99',
+                                originalPrice: '$29.99',
+                                name: 'Armor All Car Cleaning Kit 8-Piece',
+                                buttonText: '+ Add'
+                            }
+                        ]">
+                        </product-grid>
                     </div>
                 </section>
 
-                <feature-component></feature-component>
-                <product-by-catagory></product-by-catagory>
-                
-                <trusted-partners></trusted-partners>
+                <!-- Deals Grid Section -->
+                <deals-grid></deals-grid>
 
-                <trending-products></trending-products>
+                <!-- Category Grid Section -->
+                <category-grid></category-grid>
 
-                 <!-- Featured section -->
-                <section aria-labelledby="cause-heading">
-                    <div class="relative bg-gray-800 px-6 py-32 sm:px-12 sm:py-40 lg:px-16">
-                        <div class="absolute inset-0 overflow-hidden">
-                            <img src="https://tailwindcss.com/plus-assets/img/ecommerce-images/home-page-03-feature-section-full-width.jpg" alt="" class="size-full object-cover" />
-                        </div>
-                        <div aria-hidden="true" class="absolute inset-0 bg-website-heading/50"></div>
-                        <div class="relative mx-auto flex max-w-3xl flex-col items-center text-center">
-                            <h2 id="cause-heading" class="text-lg md:text-3xl font-bold tracking-tight text-white sm:text-4xl">Connect with an Expert Today</h2>
-                            <p class="mt-3 text-medium md:text-xl text-white">Get in touch with our experts! Let us know what technological challenges you’re facing or what you need, and we’ll work together to find the best solutions for your requirements. Your success is our priority!</p>
-                            <a href="#" class="mt-8 block w-full rounded-md border border-transparent bg-white px-8 py-3 text-base font-medium text-website-heading hover:bg-gray-100 sm:w-auto">Request</a>
-                        </div>
-                    </div>
-                </section>
+                <!-- Promotional Section -->
+                <promotional-section></promotional-section>
+
             </main>
             <footer-component></footer-component>
         </div>

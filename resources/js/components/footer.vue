@@ -1,6 +1,6 @@
 <template>
     <footer class="bg-website-heading">
-      <div class="mx-auto max-w-7xl px-6 pt-16 pb-8 sm:pt-24 lg:px-8 lg:pt-32">
+      <div class="mx-auto max-w-8xl px-6 pt-16 pb-8 sm:pt-24 lg:px-8 lg:pt-32">
         <div class="xl:grid xl:grid-cols-3 xl:gap-8">
           <div class="space-y-8">
             <logo-component logo-type="light"></logo-component>

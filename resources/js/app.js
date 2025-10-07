@@ -16,6 +16,12 @@ import QuickViewModal from './components/modals/quick-view-modal.vue';
 import Newsletter from './components/newsletter.vue';
 import TrustedPartners from './components/trusted-pertners.vue';
 import TrendingProducts from './components/products/trending-products.vue';
+import ProductCard from './components/ProductCard.vue';
+import DynamicBanner from './components/DynamicBanner.vue';
+import ProductGrid from './components/ProductGrid.vue';
+import DealsGrid from './components/DealsGrid.vue';
+import CategoryGrid from './components/CategoryGrid.vue';
+import PromotionalSection from './components/PromotionalSection.vue';
 
 const app = createApp({
     // Your Vue app configuration
@@ -35,6 +41,12 @@ app.component('quick-view-modal', QuickViewModal);
 app.component('newsletter-component', Newsletter);
 app.component('trusted-partners', TrustedPartners);
 app.component('trending-products', TrendingProducts);
+app.component('product-card', ProductCard);
+app.component('dynamic-banner', DynamicBanner);
+app.component('product-grid', ProductGrid);
+app.component('deals-grid', DealsGrid);
+app.component('category-grid', CategoryGrid);
+app.component('promotional-section', PromotionalSection);
 
 // Mount the Vue app to the DOM
 app.mount('#app');

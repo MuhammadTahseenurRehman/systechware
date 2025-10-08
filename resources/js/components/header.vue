@@ -303,7 +303,7 @@
   } from '@headlessui/vue'
   import { Bars3Icon, MagnifyingGlassIcon, ShoppingCartIcon, UserIcon, XMarkIcon } from '@heroicons/vue/24/outline'
   import { ChevronDownIcon } from '@heroicons/vue/20/solid'
-  import SearchModal from './SearchModal.vue'
+  import SearchModal from './searchModal.vue'
 
   const currencies = ['CAD', 'USD', 'AUD', 'EUR', 'GBP']
   const navigation = {

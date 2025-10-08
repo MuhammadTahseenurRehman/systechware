@@ -13,9 +13,9 @@
             </div>
           </div>
           <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-            <div class="md:grid md:grid-cols-2 md:gap-8">
+            <div class="md:grid md:grid-cols-3 md:gap-8">
               <div>
-                <h3 class="text-sm/6 font-semibold text-white">Solutions</h3>
+                <h3 class="text-sm/6 font-semibold text-white">Shop</h3>
                 <ul role="list" class="mt-6 space-y-4">
                   <li v-for="item in navigation.solutions" :key="item.name">
                     <a :href="item.href" class="text-sm/6 text-gray-400 hover:text-gray-300">{{ item.name }}</a>
@@ -28,6 +28,15 @@
                   <li v-for="item in navigation.support" :key="item.name">
                     <a :href="item.href" class="text-sm/6 text-gray-400 hover:text-gray-300">{{ item.name }}</a>
                   </li>
+                </ul>
+              </div>
+              <div class="mt-10 md:mt-0">
+                <h3 class="text-sm/6 font-semibold text-white">Shopping</h3>
+                <ul role="list" class="mt-6 space-y-4">
+                  <li><a href="/cart" class="text-sm/6 text-gray-400 hover:text-gray-300">Shopping Cart</a></li>
+                  <li><a href="/checkout" class="text-sm/6 text-gray-400 hover:text-gray-300">Checkout</a></li>
+                  <li><a href="/wishlist" class="text-sm/6 text-gray-400 hover:text-gray-300">Wishlist</a></li>
+                  <li><a href="/orders" class="text-sm/6 text-gray-400 hover:text-gray-300">Order History</a></li>
                 </ul>
               </div>
             </div>
@@ -63,22 +72,25 @@
   
   const navigation = {
     solutions: [
-      { name: 'Marketing', href: '#' },
-      { name: 'Analytics', href: '#' },
-      { name: 'Automation', href: '#' },
-      { name: 'Commerce', href: '#' },
-      { name: 'Insights', href: '#' },
+      { name: 'Products', href: '/products' },
+      { name: 'Categories', href: '/categories' },
+      { name: 'Deals', href: '/deals' },
+      { name: 'New Arrivals', href: '/new-arrivals' },
+      { name: 'Best Sellers', href: '/best-sellers' },
     ],
     support: [
-      { name: 'Submit ticket', href: '#' },
-      { name: 'Documentation', href: '#' },
-      { name: 'Guides', href: '#' },
+      { name: 'Help Center', href: '/help' },
+      { name: 'Contact Us', href: '/contact' },
+      { name: 'Shipping Info', href: '/shipping' },
+      { name: 'Returns', href: '/returns' },
+      { name: 'Size Guide', href: '/size-guide' },
     ],
     company: [
-      { name: 'About', href: '#' },
-      { name: 'Blog', href: '#' },
-      { name: 'Jobs', href: '#' },
-      { name: 'Press', href: '#' },
+      { name: 'About Us', href: '/about' },
+      { name: 'Our Story', href: '/our-story' },
+      { name: 'Careers', href: '/careers' },
+      { name: 'Press', href: '/press' },
+      { name: 'Blog', href: '/blog' },
     ],
     legal: [
       { name: 'Terms of service', href: '#' },

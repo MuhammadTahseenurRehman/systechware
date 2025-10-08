@@ -22,6 +22,8 @@ import ProductGrid from './components/ProductGrid.vue';
 import DealsGrid from './components/DealsGrid.vue';
 import CategoryGrid from './components/CategoryGrid.vue';
 import PromotionalSection from './components/PromotionalSection.vue';
+import DealsSection from './components/DealsSection.vue';
+import PromotionalCards from './components/PromotionalCards.vue';
 
 const app = createApp({
     // Your Vue app configuration
@@ -47,6 +49,8 @@ app.component('product-grid', ProductGrid);
 app.component('deals-grid', DealsGrid);
 app.component('category-grid', CategoryGrid);
 app.component('promotional-section', PromotionalSection);
+app.component('deals-section', DealsSection);
+app.component('promotional-cards', PromotionalCards);
 
 // Mount the Vue app to the DOM
 app.mount('#app');

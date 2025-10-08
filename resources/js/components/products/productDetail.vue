@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white">
-    <div class="mx-auto max-w-2xl px-4 py-2 md:py-8 sm:px-6 lg:max-w-7xl lg:px-8">
+    <div class="mx-auto max-w-8xl px-4 py-2 md:py-8 sm:px-6 lg:max-w-8xl lg:px-8">
       <!-- Container with responsive layout -->
       <div class="flex flex-col lg:grid lg:grid-cols-[1.5fr_1fr] lg:items-start lg:gap-x-15">
         

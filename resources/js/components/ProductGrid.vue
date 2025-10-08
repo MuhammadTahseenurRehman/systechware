@@ -6,7 +6,8 @@
             :current-price="product.currentPrice" 
             :original-price="product.originalPrice" 
             :product-name="product.name"
-            :button-text="product.buttonText">
+            :button-text="product.buttonText"
+            :image="product.image">
         </product-card>
     </div>
 </template>

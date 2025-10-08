@@ -12,6 +12,8 @@
     --color-website-border: oklch(92.8% 0.006 264.531);
     --color-website-button: oklch(23.6% 0.164 258.4);
     --font-family-website: 'Noto Sans', sans-serif;
+    --max-width-8xl: 94rem;
+    --container-8xl: 94rem;
 }
 
 /* Set Roboto as the default font family for the entire application */

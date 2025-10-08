@@ -141,7 +141,7 @@
             </Dialog>
         </TransitionRoot>
 
-        <main class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <main class="mx-auto max-w-8xl px-4 sm:px-6 lg:px-8">
             <div class="flex items-baseline justify-between border-b border-gray-200 pt-2 md:pt-8 pb-2 md:pb-8">
                 <h1 class="text-2xl md:text-4xl font-bold tracking-tight text-website-heading">New Arrivals</h1>
                 <!-- Update the header section - remove view toggle buttons -->

@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white">
-    <div class="mx-auto max-w-2xl px-4 pt-8 md:pt-16 pb-24 sm:px-6 lg:max-w-7xl lg:px-8">
+    <div class="mx-auto max-w-8xl px-4 pt-8 md:pt-16 pb-24 sm:px-6 lg:max-w-8xl lg:px-8">
       <h1 class="text-3xl font-bold tracking-tight text-website-heading sm:text-4xl">Shopping Cart</h1>
       <form class="mt-6 md:mt-12 lg:grid lg:grid-cols-12 lg:items-start lg:gap-x-12 xl:gap-x-16">
         <section aria-labelledby="cart-heading" class="lg:col-span-8">

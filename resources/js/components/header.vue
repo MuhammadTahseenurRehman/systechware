@@ -138,7 +138,7 @@
               <div class="flex h-16 items-center justify-between">
                 <!-- Logo (lg+) -->
                 <div class="hidden lg:flex lg:items-center">
-                  <a href="#">
+                  <a href="/">
                     <span class="sr-only">Your Company</span>
                     <logo-component></logo-component>
                   </a>
@@ -225,7 +225,7 @@
                 </div>
 
                 <!-- Logo (lg-) -->
-                <a href="#" class="lg:hidden">
+                <a href="/" class="lg:hidden">
                   <span class="sr-only">Your Company</span>
                   <logo-component></logo-component>
                 </a>
@@ -255,7 +255,7 @@
                   <span class="mx-4 h-6 w-px bg-gray-200 lg:mx-6" aria-hidden="true" />
 
                   <div class="flow-root">
-                    <a href="#" class="group -m-2 flex items-center p-2">
+                    <a href="/cart" class="group -m-2 flex items-center p-2">
                       <ShoppingCartIcon class="size-6 shrink-0 text-gray-400 group-hover:text-website-text" aria-hidden="true" />
                       <span class="ml-2 text-sm font-medium text-gray-700 group-hover:text-gray-800">0</span>
                       <span class="sr-only">items in cart, view bag</span>
@@ -366,8 +366,11 @@
       },
     ],
     pages: [
-      { name: 'Company', href: '#' },
-      { name: 'Stores', href: '#' },
+      { name: 'Home', href: '/index2' },
+      { name: 'Shop', href: '/listing' },
+      { name: 'Product', href: '/product/1' },
+      { name: 'Cart', href: '/cart' },
+      { name: 'Checkout', href: '/checkout' },
     ],
   }
 

@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white">
     <h2 class="sr-only">Our perks</h2>
-    <div class="mx-auto max-w-7xl divide-y divide-gray-200 lg:flex lg:justify-center lg:divide-x lg:divide-y-0 lg:py-8">
+    <div class="mx-auto max-w-8xl divide-y divide-gray-200 lg:flex lg:justify-center lg:divide-x lg:divide-y-0 lg:py-8">
       <div v-for="(perk, perkIdx) in perks" :key="perkIdx" class="py-8 lg:w-1/3 lg:flex-none lg:py-0">
         <div class="mx-auto flex max-w-xs items-center px-4 lg:max-w-none lg:px-8">
           <component :is="perk.icon" class="size-8 shrink-0 text-indigo-600" aria-hidden="true" />

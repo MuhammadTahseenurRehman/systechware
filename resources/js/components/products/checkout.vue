@@ -1,6 +1,6 @@
 <template>
     <div class="bg-gray-50">
-      <div class="mx-auto max-w-2xl px-4 pt-8 md:pt-16 pb-24 sm:px-6 lg:max-w-7xl lg:px-8">
+      <div class="mx-auto max-w-8xl px-4 pt-8 md:pt-16 pb-24 sm:px-6 lg:max-w-8xl lg:px-8">
         <form class="lg:grid lg:grid-cols-[2fr_1fr] lg:gap-x-12 xl:gap-x-16">
           <div>
             <div>

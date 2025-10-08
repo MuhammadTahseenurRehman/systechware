@@ -1,6 +1,6 @@
 <template>
     <section aria-labelledby="trending-heading">
-        <div class="mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8 lg:pt-32">
+        <div class="mx-auto max-w-8xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8 lg:pt-32">
             <div class="md:flex md:items-center md:justify-between">
                 <h2 id="favorites-heading" class="text-2xl font-bold tracking-tight text-website-heading">Trending Products</h2>
                 <a href="#" class="hidden text-sm font-medium text-indigo-600 hover:text-indigo-500 md:block">

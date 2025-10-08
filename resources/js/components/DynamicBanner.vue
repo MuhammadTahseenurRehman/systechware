@@ -32,7 +32,7 @@
                                                 <div class="w-full h-[140px] bg-gray-200 rounded-lg"></div>
                                             </div>
                                             <h3 class="text-sm font-semibold text-gray-800 mb-1">{{ product.name }}</h3>
-                                            <p class="text-xs text-gray-600">{{ product.description }}</p>
+                                            <p class="text-sm text-gray-600">{{ product.description }}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -44,7 +44,7 @@
                     <div class="bg-white/20 rounded-lg px-4 py-3 text-white text-center">
                         <div class="font-bold text-sm">{{ brandName }}</div>
                         <div class="font-bold text-lg">{{ dealText }}</div>
-                        <div class="text-xs">{{ timeText }}</div>
+                        <div class="text-sm">{{ timeText }}</div>
                     </div>
                 </div>
                 
@@ -181,6 +181,7 @@ export default {
 .line-clamp-2 {
     display: -webkit-box;
     -webkit-line-clamp: 2;
+    line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }

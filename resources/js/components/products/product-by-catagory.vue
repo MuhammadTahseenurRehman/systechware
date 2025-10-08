@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white">
-    <div class="py-16 sm:py-24 xl:mx-auto xl:max-w-7xl xl:px-8">
+    <div class="py-16 sm:py-24 xl:mx-auto xl:max-w-8xl xl:px-8">
       <div class="px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8 xl:px-0">
         <h2 class="text-2xl font-bold tracking-tight text-website-heading">Shop by Category</h2>
         <a href="#" class="hidden text-sm font-semibold text-indigo-600 hover:text-indigo-500 sm:block">

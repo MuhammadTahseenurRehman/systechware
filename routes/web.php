@@ -7,6 +7,10 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/index2', function () {
+    return view('index2');
+});
+
 Route::get('/listing', [ProductController::class, 'listing']);
 Route::get('/product/{id}', [ProductController::class, 'show']);
 
